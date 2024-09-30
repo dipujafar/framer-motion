@@ -29,7 +29,7 @@ const List = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="space-y-2"
+      className="flex gap-x-2 items-center"
     >
       {Array.from({ length: 5 }).map((data, idx) => (
         <motion.li
